@@ -1,0 +1,474 @@
+#media-queries{
+  position: absolute;
+/*  display: none;*/
+}
+/* ----------- iPhone 4 and 4S ----------- */
+
+@media only screen 
+  and (max-width:767px) {
+
+  #media-queries::before { content: "\2713  767px Screen"; }
+
+}
+
+@media only screen
+  and (min-width:767px)
+  and (max-width:992px){
+
+  #media-queries::before { content: "\2713  767 : 992 px Screen"; }
+}
+
+@media only screen
+  and (min-width:992px)
+  and (max-width:1199px){
+
+  #media-queries::before { content: "\2713  992 : 1199 px Screen"; }
+}
+
+@media only screen 
+  and (min-width:1199px)
+  and (max-width:1920px) {
+
+  #media-queries::before { content: "\2713  1199 : 1920 px Screen"; }
+
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  
+  #media-queries::before { content: "\2713  iPhone 4 and 4S// Portrait and Landscape"; }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  #media-queries::before { content: "\2713  iPhone 4 and 4S// Portrait"; }
+
+/*  *, html, body, footer, header, h1, h2, h3, h4, h5, h6, p, span, div, a  {
+    font-size: 10px !important;
+  }
+  .masthead-nav {
+    margin-left: 0px;
+    position: fixed;
+    right: 165px;
+  }
+  .masthead-nav > li {
+    width: 100%;
+  }
+  .masthead-nav > li > a {
+    padding-right: 26px;
+    padding-left: 10px;
+    height: 19px;
+    padding-top: 3px;
+  }*/
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  
+  #media-queries::before { content: "\2713  iPhone 4 and 4S// Landscape"; }    
+
+/*  *, html, body, footer, header, h1, h2, h3, h4, h5, h6, p, span, div, a  {
+    font-size: 10px !important;
+  } 
+  .masthead-brand {
+    margin-left: 160px !important;
+  }
+  .masthead-nav {
+    padding-top: 0px;
+    margin-right: 33px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+  .masthead-nav > li + li {
+    margin-right: 10px;
+  }  
+  .masthead-nav > li > a {
+    padding-right: 5px;
+    padding-left: 5px;
+  }  
+  footer .copyright {
+    font-weight: normal;
+    font-size: 17px !important;
+    padding-left: 0px;
+    text-align: center;
+  }  
+  footer .social {
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 10px;
+  }  */
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  #media-queries::before { content: "\2713  iPhone 5 and 5S// Portrait and Landscape"; }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  
+  #media-queries::before { content: "\2713  iPhone 5 and 5S// Portrait"; }    
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+  #media-queries::before { content: "\2713  iPhone 5 and 5S// Landscape"; }    
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+  #media-queries::before { content: "\2713  iPhone 6// Portrait and Landscape"; }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+  #media-queries::before { content: "\2713  iPhone 6// Portrait"; }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+  #media-queries::before { content: "\2713  iPhone 6// Landscape"; }
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  #media-queries::before { content: "\2713  iPhone 6+// Portrait and Landscape"; }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+  #media-queries::before { content: "\2713  iPhone 6+// Portrait"; }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+  #media-queries::before { content: "\2713  iPhone 6+// Landscape";  }
+
+}
+
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+  #media-queries::before { content: "\2713  Galaxy S3// Portrait and Landscape"; }
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+  #media-queries::before { content: "\2713  Galaxy S3// Portrait"; }
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+  #media-queries::before { content: "\2713  Galaxy S3// Landscape"; }
+
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+  #media-queries::before { content: "\2713  Galaxy S4// Portrait and Landscape"; }
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+  #media-queries::before { content: "\2713  Galaxy S4// Portrait"; }
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+  #media-queries::before { content: "\2713  Galaxy S4// Landscape"; }
+
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+  #media-queries::before { content: "\2713  Galaxy S5// Portrait and Landscape"; }
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+  #media-queries::before { content: "\2713  Galaxy S5// Portrait"; }
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+  #media-queries::before { content: "\2713  Galaxy S5// Landscape"; }
+
+}
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+  #media-queries::before { content: "\2713  HTC One// Portrait and Landscape"; }
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+  #media-queries::before { content: "\2713  HTC One// Portrait"; }
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+  #media-queries::before { content: "\2713  HTC One// Landscape"; }
+
+}
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  #media-queries::before { content: "\2713  iPad mini// Portrait and Landscape"; }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  #media-queries::before { content: "\2713  iPad mini// Portrait"; }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  #media-queries::before { content: "\2713  iPad mini// Landscape"; }
+
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  #media-queries::before { content: "\2713  iPad 1 and 2// Portrait and Landscape"; }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  #media-queries::before { content: "\2713  iPad 1 and 2// Portrait"; }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  #media-queries::before { content: "\2713  iPad 1 and 2// Landscape"; }
+
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  #media-queries::before { content: "\2713  iPad 3 and 4// Portrait and Landscape"; }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  #media-queries::before { content: "\2713  iPad 3 and 4// Portrait"; }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  #media-queries::before { content: "\2713  iPad 3 and 4// Landscape"; }
+
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+  #media-queries::before { content: "\2713  Non-Retina Screens// Portrait and Landscape"; }
+
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  
+  #media-queries::before { content: "\2713  Retina Screens// Portrait and Landscape"; }
+
+}
